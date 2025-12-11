@@ -1,0 +1,248 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;  
+}
+
+body {
+    padding-top: 90px;
+    display: flex;
+    background: #f5f7fb;
+}
+
+.main-header {
+    width: 100%;
+    background: #1c44c6;  
+    padding: 18px 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    position: fixed;       
+    top: 0;
+    left: 0; 
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-logo {
+    height: 50px;
+    width: auto;
+}
+
+.header-text h1 {
+    font-size: 22px;
+    color: white;
+}
+
+.header-text p {
+    font-size: 14px;
+    color: #e3e8ff;
+}
+
+
+
+
+/* Barra lateral */
+.sidebar {
+    width: 250px;
+    background: #fff;
+    height: 100vh;
+    border-right: 1px solid #e5e5e5;
+    padding: 20px;
+}
+
+.sidebar ul li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: #3b4566;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+    background: #1c44c6;
+    color: #fdfeff;
+}
+
+.sidebar ul li.active {
+    background: #1c44c6;
+    color: #fdfeff;
+    padding: 12px 15px;
+    border-radius: 8px;
+}
+
+
+
+/* Analisis de riesgos */
+
+.contenidoAnalisisDR {
+    flex: 1;
+    padding: 20px 40px;
+}
+
+.h3AdR{
+    text-align: left;
+    color: #1c44c6;
+    margin-bottom: 20px;
+}
+
+
+
+/* Cuadrito fondo analisis de riesgos*/
+.cuadrote {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e3d7ff;
+}
+
+/* Tipo de tramite */
+
+
+.cuadritoTpTramite {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #c2a2ff;
+    text-align: center;
+    cursor: pointer;
+    background: #f6efff;
+    transition: 0.3s;
+}
+
+.h3TdT {
+    text-align: left;
+    margin-bottom: 20px;
+     font-size: 18px;
+}
+
+
+.opcionesTramite {
+    display: flex;
+    gap: 20px;
+}
+
+.tramiteBtn {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #937ebb;
+    text-align: center;
+    cursor: pointer;
+    background: #fbf5ff;
+    transition: 0.3s;
+    
+}
+
+.tramiteBtn:hover {
+    background: #e9d7ff;
+}
+
+.tramiteBtn.active {
+    border-color: #611fb3;
+    background: #e9d7ff;
+    font-weight: bold;
+}
+
+
+
+/* Informacion del contribuyente */
+.cuadritoContribuyente{
+    background: #eef5ff;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #cbd6e2;
+    font-size: 15px;
+}
+
+
+.row {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.col {
+    flex: 1;
+}
+
+.col label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.col input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #cbd6e2;
+}
+
+
+.btnBuscar button {
+    background: #5876b5;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.2s;
+    margin-bottom: 3px;
+}
+
+.btnBuscar button:hover {
+    background: #2f54a5;
+}
+
+/* INFO DE PAGO */
+
+.cuadritoInfoPago{
+    background: #eaf6f2;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+/* ESTATUS */
+
+.cuadritoEstatus{
+    background: #fff7db;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+
+
